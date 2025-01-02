@@ -1,5 +1,10 @@
 import { bindable } from 'aurelia-framework';
 
+/**
+ * Defines a HelloWorld custom element for demonstration purpose.
+ * @category public
+ */
 export class HelloWorld {
-  @bindable message = '';
+  /** @type {string} The bindable message */
+  @bindable message;
 }
